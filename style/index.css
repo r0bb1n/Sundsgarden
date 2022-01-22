@@ -3,7 +3,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #2A9D8F;
+    border-radius: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
 }
 
 li {
@@ -12,12 +18,25 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #E9C46A;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: yellowgreen;
+body {
+    background-color: #264653;
+    text-align: center;
+}
+
+.text {
+    color: #f4a261;
+    position: relative;
+    top: 50px;
+}
+
+.header {
+    font-size: 24px;
+    position: relative;
+    top: 30px;
 }
